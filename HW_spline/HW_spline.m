@@ -35,5 +35,3 @@ plot(X, Y, 's')
 % squares are our control points
 xlabel('$x$', 'Interpreter','latex','FontSize', 20)
 ylabel('$y$', 'Interpreter','latex','FontSize', 20)
-
-
