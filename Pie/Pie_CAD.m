@@ -1,11 +1,5 @@
+function [] = Pie_CAD(data)
 figure
-t = 0:2*pi/4000:2*pi;
-t1 = 0:pi/2000:pi/2;
-c1 = sin(t);
-c2 = cos(t);
-C1 = sin(t1);
-C2 = cos(t1);
-plot(c1, c2);
 axis equal
 hold;
 axis ([-1.5 1.5 -1.5 1.5])
@@ -43,3 +37,4 @@ text(0.7*cos((x0+x1)/2),0.75*sin((x0+x1)/2), Perc_A,'FontSize',16)
 text(0.7*cos((x2+x1)/2),0.75*sin((x2+x1)/2), Perc_B,'FontSize',16)
 text(0.7*cos((x2+x3)/2),0.75*sin((x2+x3)/2), Perc_C,'FontSize',16)
 text(0.7*cos((x4+x3)/2),0.75*sin((x4+x3)/2), Perc_D,'FontSize',16)
+end
